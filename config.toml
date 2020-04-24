@@ -1,2 +1,4 @@
+baseURL = "https://mmm2020.digital/"
 languageCode = "en-us"
-title = "My New Netlify Victor Hugo Site"
+title = "MMM2020"
+theme = "dream"
