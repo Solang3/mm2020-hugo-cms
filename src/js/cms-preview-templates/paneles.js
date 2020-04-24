@@ -7,7 +7,7 @@ export default class PanelsPreview extends React.Component {
     let image = getAsset(entry.getIn(["data", "image"]));
 
     return <div className="mw6 center ph3 pv4">
-      <h1 className="f2 lh-title b mb3">{ entry.getIn(["data", "title"])}</h1>
+      <h1 className="f2 lh-title b mb3">{ entry.getIn(["data", "titulo"])}</h1>
       <div className="flex justify-between grey-3">
         <p>{ format(entry.getIn(["data", "time"]), "ddd, MMM D, YYYY") }</p>
       </div>
