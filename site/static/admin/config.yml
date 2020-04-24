@@ -85,7 +85,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/paneles" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Hora", name: "hora", widget: "time"}
+      - {label: "Cuando", name: "date", widget: "datetime"}
       - {label: "Exponente", name: "exponente", widget: "string"}
       - {label: "Titulo", name: "titulo", widget: "string"}
       - {label: "Descripcion", name: "descripcion", widget: "text"}

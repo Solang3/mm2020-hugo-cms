@@ -1,5 +1,5 @@
 ---
-hora: T15:04:10.000Z
+date: 2020-05-02T15:04:10.000Z
 titulo: Historia del Cannabis
 exponente: Fernando Soriano
 descripcion: >-
